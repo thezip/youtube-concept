@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 70px 20px 32px ;
+}
+
+.menu-button {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 20px;
+  height: 17px;
+  border: none;
+  margin-right: 28px;
+  cursor: pointer;
+}
+
+.menu-line {
+  display: block;
+  background: #1F2022;
+  width: 20px;
+  height: 3px;
+  border-radius: 1.5px;
+}
+
+.logo {
+  margin-right: 59px;
+}
+
+.input-group {
+  max-width: 830px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebebeb;
+  border: 1px solid #000;
+  border-radius: 22px;
+  padding-right: 10px;
+}
+
+.input-search {
+  background-color: transparent;
+  border: none;
+  padding: 12px 0 12px 23px;
+  cursor: pointer;
+}
+
+.button-search {
+  background-color: transparent;
+  border: none;
+}
+
+.icon-search {
+  width: 19px;
+  height: 19px;
+  fill: #000;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.icon-video {
+  width: 27px;
+  height: 20px;
+  fill: #000;  
+}
+
+.icon-apps {
+  width: 21px;
+  height: 21px;
+  fill: #000; 
+}
+
+.icon-notification {
+  width: 22px;
+  height: 26px;
+  fill: #000;
+}
+
+.icons-link {
+  text-decoration: none;
+  opacity: .24;
+}
+.icons-link:hover {
+  opacity: .7;
+}
+.icons-link:not(:last-child){
+  margin-right: 50px;
+}
+
+.user {
+  margin-left: 45px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
